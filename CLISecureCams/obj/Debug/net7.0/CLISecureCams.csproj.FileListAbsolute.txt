@@ -1,0 +1,17 @@
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\bin\Debug\net7.0\CLISecureCams.exe
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\bin\Debug\net7.0\CLISecureCams.deps.json
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\bin\Debug\net7.0\CLISecureCams.runtimeconfig.json
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\bin\Debug\net7.0\CLISecureCams.dll
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\bin\Debug\net7.0\CLISecureCams.pdb
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\obj\Debug\net7.0\CLISecureCams.csproj.AssemblyReference.cache
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\obj\Debug\net7.0\CLISecureCams.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\obj\Debug\net7.0\CLISecureCams.AssemblyInfoInputs.cache
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\obj\Debug\net7.0\CLISecureCams.AssemblyInfo.cs
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\obj\Debug\net7.0\CLISecureCams.csproj.CoreCompileInputs.cache
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\obj\Debug\net7.0\CLISecureCams.csproj.CopyComplete
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\obj\Debug\net7.0\CLISecureCams.dll
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\obj\Debug\net7.0\refint\CLISecureCams.dll
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\obj\Debug\net7.0\CLISecureCams.pdb
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\obj\Debug\net7.0\CLISecureCams.genruntimeconfig.cache
+C:\Users\gauta\source\repos\InfiSecurityCameras\CLISecureCams\obj\Debug\net7.0\ref\CLISecureCams.dll

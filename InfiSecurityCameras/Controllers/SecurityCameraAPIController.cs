@@ -15,6 +15,8 @@ namespace InfiSecurityCameras.Controllers
 {
     public class SecurityCameraAPIController : ApiController
     {
+        const string fileName = "C:\\Users\\gauta\\source\\repos\\InfiSecurityCameras\\InfiSecurityCameras\\cameras-defb.csv";
+
         // GET: api/SecurityCameraAPI
         public IEnumerable<SecurityCameraMdl> Get()
         {
@@ -27,8 +29,6 @@ namespace InfiSecurityCameras.Controllers
                 Delimiter = ";"
             };
 
-            var fileName = "C:\\Users\\gauta\\source\\repos\\InfiSecurityCameras\\InfiSecurityCameras\\cameras-defb.csv";
-
             using (var reader = new StreamReader(fileName))
             using (var csv = new CsvReader(reader, configuration))
             {
@@ -37,6 +37,27 @@ namespace InfiSecurityCameras.Controllers
                 securityCameraMdl = records.ToList();
             }
             return securityCameraMdl;
+        }
+
+        public IEnumerable<SecurityCameraMdl> Get(string SearchName)
+        {
+            List<SecurityCameraMdl> securityCameraMdl = new List<SecurityCameraMdl>();
+
+            var configuration = new CsvConfiguration(CultureInfo.InvariantCulture)
+            {
+                HasHeaderRecord = false,
+                MissingFieldFound = null,
+                Delimiter = ";"
+            };
+
+            using (var reader = new StreamReader(fileName))
+            using (var csv = new CsvReader(reader, configuration))
+            {
+                csv.Context.RegisterClassMap<SecurityCamMap>();
+                var records = csv.GetRecords<SecurityCameraMdl>();
+                securityCameraMdl = records.ToList();
+            }
+            return securityCameraMdl.Where(m => m.CameraName.StartsWith(SearchName));
         }
 
         public class SecurityCamMap : ClassMap<SecurityCameraMdl>

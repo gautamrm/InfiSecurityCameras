@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pkEPuJF1OqPhobo20DPEPXbbhnNpCGzdWtVkAmgK28K2sPrFGVla2kuvezJJk75ZYm2Bf1WUmCyKJ8wKoShU3A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gauta\\source\\repos\\InfiSecurityCameras\\CLISecureCams\\CLISecureCams.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gauta\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
