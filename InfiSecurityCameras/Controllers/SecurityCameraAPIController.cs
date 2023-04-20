@@ -57,7 +57,7 @@ namespace InfiSecurityCameras.Controllers
                 var records = csv.GetRecords<SecurityCameraMdl>();
                 securityCameraMdl = records.ToList();
             }
-            return securityCameraMdl.Where(m => m.CameraName.StartsWith(SearchName));
+            return securityCameraMdl.Where(m => m.CameraName.Contains(SearchName));
         }
 
         public class SecurityCamMap : ClassMap<SecurityCameraMdl>
