@@ -23,7 +23,6 @@ namespace HttpClientSample
 
         static void ShowCameras(List<SecurityCameraMdl> securityCameraMdlList)
         {
-            //501 | UTR-CM-501 Neude rijbaan voor Postkantoor | 52.093421 | 5.118278
             foreach(var securityCameraMdl in securityCameraMdlList)
             {
                 Console.WriteLine($"Id: {securityCameraMdl.Id}\tCamera Name : " + $"{securityCameraMdl.CameraName}\tLattitude: {securityCameraMdl.Lattitude}\tLongitude: {securityCameraMdl.Longitude}");
@@ -32,7 +31,6 @@ namespace HttpClientSample
 
         static async Task<List<SecurityCameraMdl>> GetProductAsync(string path)
         {
-            HttpClient client = new HttpClient();
             HttpResponseMessage response = await client.GetAsync(path);
             var listSecurityCameraMdl = new List<SecurityCameraMdl>();
 
@@ -48,6 +46,7 @@ namespace HttpClientSample
         static void Main(string[] args)
         {
             Console.WriteLine("Please enter security cam name to proceed...");
+
             var strSearchName = Console.ReadLine();
             if (strSearchName == null)
             {
@@ -60,10 +59,8 @@ namespace HttpClientSample
             }            
         }
 
-        static async Task RunAsync(string SearchName)
+        static async Task RunAsync(string searchName)
         {
-            // Update port # in the following line.
-            client.BaseAddress = new Uri("http://localhost:60611/api/SecurityCameraAPI");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
@@ -71,8 +68,8 @@ namespace HttpClientSample
             {
                 List<SecurityCameraMdl> securityCameraMdl = new List<SecurityCameraMdl>();
 
-                // Get the product
-                securityCameraMdl = await GetProductAsync("http://localhost:60611/api/SecurityCameraAPI/" + SearchName);
+                // Update Port to your local
+                securityCameraMdl = await GetProductAsync("http://localhost:60611/api/SecurityCameraAPI?searchName=" + searchName);
                 ShowCameras(securityCameraMdl);
 
             }
