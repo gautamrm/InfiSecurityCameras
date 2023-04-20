@@ -5,10 +5,6 @@ using System.Web;
 
 namespace InfiSecurityCameras.Models
 {
-    public class SecuritycameraMdlList
-    {
-        public List<SecurityCameraMdl> securityCameraMdls {get; set;}
-    }
     public class SecurityCameraMdl
     {
         public int Id { get; set; }

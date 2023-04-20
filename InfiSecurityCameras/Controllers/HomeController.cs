@@ -32,12 +32,10 @@ namespace InfiSecurityCameras.Controllers
             HttpClient client = new HttpClient();
             HttpResponseMessage response = await client.GetAsync("http://localhost:60611/api/SecurityCameraAPI");
             var listSecurityCameraMdl = new List<SecurityCameraMdl>();
-            //var securityCameraMdl = new SecurityCameraMdl();
 
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
-                //listSecurityCameraMdl = JsonConvert.DeserializeObject<SecuritycameraMdlList>(content);
                 listSecurityCameraMdl = JsonConvert.DeserializeObject<List<SecurityCameraMdl>>(content);
             }
 
