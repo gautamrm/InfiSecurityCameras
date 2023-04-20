@@ -1,0 +1,164 @@
+﻿@model List<InfiSecurityCameras.Models.SecurityCameraMdl>
+
+<h1></h1>
+<div id="map" style="margin-top:20px"></div>
+<br />
+<main>
+    <table id="cameraTableContainer" align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <table id="column3">
+                        <thead>
+                            <tr>
+                                <th colspan="4">Cameras 3</th>
+                            </tr>
+                            <tr>
+                                <th>Number</th>
+                                <th>Name</th>
+                                <th>Latitude</th>
+                                <th>Longitude</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{ 
+                                foreach(var mod in Model)
+                                {
+                                    var idCamera3 = mod.Id;
+                                    if((idCamera3 % 3 == 0) && (idCamera3 % 5 != 0))
+                                    {
+                                        <tr>
+                                            <th>@mod.Id</th>
+                                            <th>@mod.CameraName</th>
+                                            <th>@mod.Lattitude</th>
+                                            <th>@mod.Longitude</th>
+                                        </tr>
+                                    }
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </td>
+                <td>
+                    <table id="column5">
+                        <thead>
+                            <tr>
+                                <th colspan="4">Cameras 5</th>
+                            </tr>
+                            <tr>
+                                <th>Number</th>
+                                <th>Name</th>
+                                <th>Latitude</th>
+                                <th>Longitude</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                foreach (var mod in Model)
+                                {
+                                    var idCamera3 = mod.Id;
+                                    if ((idCamera3 % 3 != 0) && (idCamera3 % 5 == 0))
+                                    {
+                                        <tr>
+                                            <th>@mod.Id</th>
+                                            <th>@mod.CameraName</th>
+                                            <th>@mod.Lattitude</th>
+                                            <th>@mod.Longitude</th>
+                                        </tr>
+                                    }
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </td>
+                <td>
+                    <table id="column15">
+                        <thead>
+                            <tr>
+                                <th colspan="4">Cameras 3 &amp; 5</th>
+                            </tr>
+                            <tr>
+                                <th>Number</th>
+                                <th>Name</th>
+                                <th>Latitude</th>
+                                <th>Longitude</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                foreach (var mod in Model)
+                                {
+                                    var idCamera3 = mod.Id;
+                                    if ((idCamera3 % 3 == 0) && (idCamera3 % 5 == 0))
+                                    {
+                                        <tr>
+                                            <th>@mod.Id</th>
+                                            <th>@mod.CameraName</th>
+                                            <th>@mod.Lattitude</th>
+                                            <th>@mod.Longitude</th>
+                                        </tr>
+                                    }
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </td>
+                <td>
+                    <table id="columnOther">
+                        <thead>
+                            <tr>
+                                <th colspan="4">Cameras Overig</th>
+                            </tr>
+                            <tr>
+                                <th>Number</th>
+                                <th>Name</th>
+                                <th>Latitude</th>
+                                <th>Longitude</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                foreach (var mod in Model)
+                                {
+                                    var idCamera3 = mod.Id;
+                                    if ((idCamera3 % 3 != 0) && (idCamera3 % 5 != 0))
+                                    {
+                                        <tr>
+                                            <th>@mod.Id</th>
+                                            <th>@mod.CameraName</th>
+                                            <th>@mod.Lattitude</th>
+                                            <th>@mod.Longitude</th>
+                                        </tr>
+                                    }
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</main>
+<script>
+    const map = L.map('map').setView([52.0914, 5.1115], 13);
+
+    const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    const marker = L.marker([51.5, -0.09]).addTo(map);
+
+    const circle = L.circle([51.508, -0.11], {
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5,
+        radius: 500
+    }).addTo(map);
+
+    const polygon = L.polygon([
+        [51.509, -0.08],
+        [51.503, -0.06],
+        [51.51, -0.047]
+    ]).addTo(map);
+</script>

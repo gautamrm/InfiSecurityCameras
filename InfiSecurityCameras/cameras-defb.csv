@@ -1,0 +1,90 @@
+0;Camera;Latitude;Longitude
+1;UTR-CM-501 Neude rijbaan voor Postkantoor;52.093.421;5.118.278
+2;UTR-CM-502 Potterstraat / Loeff Berchmakerstraat;52.093.599;5.118.325
+3;UTR-CM-503 Neude plein;52.093.448;5.118.536
+4;UTR-CM-504 Neude / Schoutenstraat;52.092.995;5.119.088
+5;UTR-CM-505 Neude / Drakenburgstraat / Vinkenurgstraat;52.092.843;5.118.351
+6;UTR-CM-506 Vinkenburgstraat / Neude;52.092.378;5.117.902
+7;UTR-CM-507 Vinkenburgstraat richting Neude;52.092.234;5.117.766
+8;UTR-CM-508 Vinkenburgstraat / richting Bakkerbrug;5.209.189;51.174
+9;UTR-CM-509 Ganzenmarkt / Stadhuisbrug / Oudegracht;5.209.181;511.889
+10;UTR-CM-510 Korte Minrebroederstraat;52.092.174;5.119.866
+11;UTR-CM-511 Stadhuisbrug / Oudkerkhof / Vismarkt;52.091.489;5.119.934
+12;UTR-CM-512 Bakkerbrug richting Vinkenburgstraat;52.091.916;5.117.422
+13;UTR-CM-513 Oudegracht / Bakkerbrug;5.209.172;5.117.073
+14;UTR-CM-514 Bakkerstraat / Oudegracht;52.091.548;5.117.028
+15;UTR-CM-515 Steenweg / Bakkerstraat;52.090.872;5.116.621
+16;UTR-CM-516 Achter Clarenburg / Voor Clarenburg;52.090.749;5.115.834
+17;UTR-CM-517 Steenweg / Mariaplaats;52.090.717;5.117.118
+18;UTR-CM-518 Steenweg / Mariastraat;52.090.711;5.116.981
+19;UTR-CM-519 Mariastraat / Mariaplaats;52.090.111;511.748
+20;UTR-CM-521 Mariaplaats / Zadelstraat / Springweg;52.089.596;5.117.706
+21;UTR-CM-522 Mariaplaats richting Bison Bowling;52.089.856;5.116.847
+22;UTR-CM-523 Mariaplaats thv tuin;52.089.778;511.674
+23;UTR-CM-524 Mariaplaats richting Mariastraat;52.089.572;5.115.423
+24;UTR-CM-526 Catharijnesingel / Moreelsepark;52.089.203;5.114.682
+25;UTR-CM-527 Stationsplein / Moreelsepark;520.888;5.113.159
+26;UTR-CM-529 Van Sijpesteijntunnel;52.091.286;5.107.607
+27;UTR-CM-530 Westplein / Van Sijpesteijnkade;52.090.779;510.629
+28;UTR-CM-531 Jaarbeursplein naast roltrap;52.088.726;5.107.274
+29;UTR-CM-532 Catharijnesingel / Smakkelaarsveld;52.092.355;5.111.495
+30;UTR-CM-533 Vredenburg / St. Jacobsstraat;52.093.125;5.114.604
+31;UTR-CM-534 Vredenburgplein thv Drieharingstraat;52.091.978;5.114.838
+32;UTR-CM-535 Drieharingstraat / Oudegracht;52.092.069;5.116.606
+33;UTR-CM-536 Viebrug zijde Intersport;52.093.555;5.116.896
+34;UTR-CM-537 Breedstraat / Hardebollenstraat;52.095.067;5.119.369
+35;UTR-CM-538 Wijde Begijnestraat / Breedstraat;52.095.378;5.121.693
+36;UTR-CM-539 Predikherenstraat / Pauwstraat;52.094.612;5.118.559
+37;UTR-CM-540 Breedstraat / Predikherenkerkhof;52.095.047;5.118.339
+38;UTR-CM-541 Lange Jansstraat / Janskerkhof;52.093.412;5.120.551
+39;UTR-CM-542 Janskerkhof / Drift / Nobelstraat;52.093.223;5.123.167
+40;UTR-CM-543 Janskerkhof / Boothstraat;5.209.382;5.122
+41;UTR-CM-544-Janskerkhof (plein);52.093.902;5.120.875
+42;UTR-CM-545 Oudkerkhof / Korte Jansstraat;52.091.968;5.122.204
+43;UTR-CM-545 Stationsstraat / Stationsplein;52.091.068;5.110.979
+44;UTR-CM-547 Voorstraat / Jansveld;52.094.985;5.120.682
+45;UTR-CM-548 Oudegracht / Drakenburgstraat;52.092.761;5.117.243
+46;UTR-CM-549 Choorstraat / Lijnmarkt / Zadelstraat;5.209.038;5.120.155
+47;UTR-CM-550-Daalsesingel / Knipstraat;52.094.148;5.110.061
+48;UTR-CM-551-Bemuurde Weerd / Adelaarstraat;52.098.529;5.114.028
+49;UTR-CM-552-Catharijnekade / Vredenburg;52.092.883;5.112.022
+50;UTR-CM-554-Catharijnesingel / Spoorstraat;52.089.993;5.113.909
+51;UTR-CM-555-Moreelsepark thv Inktpot;52.087.803;5.114.752
+52;UTR-CM-556-Laan v Puntenburg / Moreelsepark;52.086.608;5.114.757
+53;ERROR 1207 Could not read camera information from database;;
+54;UTR-CM-557-Stationsplein / Adama v Scheltemabaan;52.088.382;5.112.054
+55;UTR-CM-561-Mineurslaan achterzijde Beatrixgebouw;5.208.806;5.108.808
+56;UTR-CM-563-Croeselaan / Mineurslaan thv Rabobank;52.086.525;5.107.843
+57;UTR-CM-564-Croeselaan / Mineurslaan thv Beatrixgebouw;52.087.516;5.106.837
+58;UTR-CM-566-Croeselaan thv Hojel;520.887;5.105.024
+59;UTR-CM-567-Leidseweg / Damstraat ;52.090.331;5.104.229
+60;UTR-CM-568-Kanonstraat / Kanaalstraat;52.091.618;5.104.592
+61;UTR-CM-569-Kanonstraat / Vleutenseweg;52.092.507;5.104.337
+62;UTR-CM-570-Vleutenseweg / Damstraat;52.092.638;5.103.288
+63;UTR-CM-571-Kanaalstraat / Damstraat;52.091.606;5.103.915
+64;UTR-CM-572-Kanaalstraat / Lombokstraat;52.091.224;5.100.404
+65;UTR-CM-573-Voorstraat / Drift;52.095.157;512.353
+66;UTR-CM-574-Lucasbolwerk / Wittevrouwenstraat;52.094.956;512.579
+67;UTR-CM-575-Lucasbolwerk / Nobelstraat;52.092.939;5.126.292
+68;UTR-CM-576-Nijntje pleintje;5.209.629;5.116.527
+69;UTR-CM-726-Peltlaan / Cruyffcourt;52.076.805;5.090.487
+70;UTR-CM-727-Bevinlaan / De Gasperilaan;52.076.319;5.089.921
+71;UTR-CM-728-Bernadottelaan / Trumanlaan;52.074.705;5.092.311
+72;UTR-CM-729-Bernadottelaan / Monnetlaan;52.074.358;5.091.474
+73;UTR-CM-730-Bernadottelaan / Marshalllaan;52.074.151;5.090.144
+74;UTR-CM-731-Bernadottelaan / Auriollaan;52.073.448;5.088.942
+75;UTR-CM-732-Bernadottelaan / Rooseveltlaan;52.073.353;5.087.923
+76;UTR-CM-733-Vasco Da Gamalaan / Marco Pololaan;52.067.189;509.907
+77;UTR-CM-741-Prins Bernhardplein;52.115.467;508.223
+78;UTR-CM-742-Van der Pekstraat / Plesmanlaan;52.114.909;508.104
+79;UTR-CM-743-Boelesteinlaan - Queeckhovenplein;52.116.606;5.082.279
+80;UTR-CM-746-Zwanenvechtlaan / Doornburglaan;52.114.487;5.089.639
+81;UTR-CM-751-Bemuurde Weerd / Adelaarstraat;52.098.603;5.114.115
+82;UTR-CM-757-ASW / Tiendstraat;52.097.562;5.105.752
+83;UTR-CM-758-ASW / Anjelierstraat;5.209.915;5.102.595
+84;UTR-CM-759-ASW / Goudsbloemstraat;5.209.975;5.101.403
+85;UTR-CM-760-ASW / Mimosastraat;52.101.094;5.099.137
+86;UTR-CM-761-ASW / Egelantierstraat;52.102.241;5.097.114
+87;UTR-CM-801-Herculeslaan / Herculesplein;52.079.461;5.143.749
+88;UTR-CM-802-Stadionlaan;52.079.681;5.142.331
+89;UTR-CM-803-Waterlinieweg;52.078.233;5.141.773
